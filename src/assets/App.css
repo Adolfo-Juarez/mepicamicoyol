@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.name{
+    font-size: 26px;
+}
+
+.seniority{
+    font-size: 18px;
+}
+
+.header-name {
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.info-name {
+    text-align: center;
+}
+
+.own-image {
+    margin: 12px 0;
+    background-image: url('../assets/andres.jpeg');
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.body {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.body-col-one {
+    padding-left: 12px;
+    width: 45%;
+}
+
+.body-col-two{
+    width: 45%;
+}
+
+.title-sector {
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+.subtitle-sector{
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.info-card {
+    margin: 18px 0;
+}
+
+.title-card {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.title-card-op {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.time-card {
+    font-size: 15px;
+}
+
+.body-col-two {
+    width: 50%;
+}
